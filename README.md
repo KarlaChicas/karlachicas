@@ -7,7 +7,7 @@ Here, you’ll find my work in **foreign affairs, communications**, and some of 
 ---
 
 ## ✨ About Me
-Hi there! I’m **Karla Chicas**, but everyone calls me **Karlita 💕**.  
+Hi there! I’m **Karla Chicas**.  
 I’m a proactive and empathetic person who loves exploring how communication and culture connect people around the world.  
 I’m deeply interested in **foreign affairs**, **languages**, and **digital communication**, and I enjoy using technology to make ideas more interactive and accessible.
 
