@@ -46,7 +46,7 @@ If you’d like to collaborate, share ideas, or just say hi, you can reach me at
 
 - 📍 *San Salvador, El Salvador*  
 - 💌 [karlachicas.ag@gmail.com](mailto:karlachicas.ag@gmail.com)  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/karlachicas07/) | [GitHub](https://github.com)
+- 🌐 [LinkedIn](https://www.linkedin.com/in/karlachicas07/) | [GitHub](https://github.com/KarlaChicas)
 
 ---
 
