@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Karlita Portafolio 💻☕</title>
+  <title>Karla Chicas Portafolio 💻</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -21,8 +22,10 @@
     </nav>
   </header>
 
-  <section id="home" class="home">
-    <div class="text">
+ <section id="home" class="home">
+        <div class="profile-card background-shapes">
+            <img src="profile.png" alt="Profile photo" class="profile-image">
+            <div class="profile-info">
       <h2>Hello, I’m <span>Karla Chicas</span></h2>
       <h3>Future Bachelor's Degree in Foreign Affairs 🌐</h3>
       <p>
@@ -34,58 +37,153 @@
       </div>
     </div>
     <div class="image">
-      <img src="profile.png" alt="Karlita profile photo">
     </div>
   </section>
 
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-      I'm a developer who loves blending creativity and logic.  
-      My goal is to make technology easier to understand and more meaningful for everyone.
-    </p>
-  </section>
-
-  <section id="skills" class="skills">
-    <h2>Skills</h2>
-    <div class="grid">
-      <div class="card">💻 <h3>Web Development</h3><p>HTML, CSS, JavaScript, PHP</p></div>
-      <div class="card">🧠 <h3>Artificial Intelligence</h3><p>ChatGPT tools, prompts, AI learning</p></div>
-      <div class="card">🎨 <h3>Design</h3><p>UI/UX, Canva, Figma</p></div>
-      <div class="card">💬 <h3>Communication</h3><p>Workshops, teamwork, creativity</p></div>
-    </div>
-  </section>
-
-  <section id="projects" class="projects">
-    <h2>My Projects</h2>
-    <div class="cards">
-      <div class="project">
-        <h3>AI Schooling</h3>
-        <p>A platform that helps adults learn AI tools easily and interactively.</p>
-        <span>#Education #AI</span>
-      </div>
-      <div class="project">
-        <h3>Crochet Dreams</h3>
-        <p>A creative shop for handmade crochet flowers and keychains.</p>
-        <span>#Design #Crafts</span>
-      </div>
-      <div class="project">
-        <h3>Tech Talks</h3>
-        <p>Interactive presentations about technology for students and teachers.</p>
-        <span>#Innovation #Learning</span>
+ <section id="about" class="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m <strong>Karla</strong> — a passionate and globally minded student who loves discovering how people, ideas, and cultures connect. My curiosity about communication and foreign affairs has shaped who I am today: someone who values empathy, understanding, and collaboration beyond borders.
+      </p>
+      <p>
+        I’m especially drawn to <strong>international relations</strong> and the power of language to build bridges between nations. I enjoy learning about diplomacy, global challenges, and how teamwork and dialogue can lead to positive change. My dream is to study <em>Foreign Affairs and Communications</em> and work to strengthen global understanding.
+      </p>
+      <p>
+        Along the way, I’ve developed skills in <strong>public speaking, research, and digital communication</strong>. I also love using creative tools—like AI and design platforms—to make messages clearer, visual, and more engaging.
+      </p>
+      <p>
+        Outside academics, I’m proactive, empathetic, and always learning something new. Whether it’s practicing languages, leading a project, or connecting with people from different backgrounds, I believe communication is the art of bringing hearts and minds together.
+      </p>
+        <!-- Download button -->
+      <div class="download-wrap">
+        <a class="btn-download" href="assets/karlachicasresume.pdf" download="Karlita_CV.pdf" aria-label="Download Karlita's resume">
+          ⬇️ Download Résumé
+          </a>
       </div>
     </div>
-  </section>
+    <div class="about-cards">
+      <div class="card">
+        🌐 <h3>Languages</h3>
+        <p>English (B2), Spanish (Native), learning more!</p>
+      </div>
+      <div class="card">
+        🤝 <h3>Communication</h3>
+        <p>Public speaking, teamwork, empathy</p>
+      </div>
+      <div class="card">
+        📊 <h3>Research & Analysis</h3>
+        <p>Global issues, projects, and data insight</p>
+      </div>
+      <div class="card">
+        💻 <h3>Digital Skills</h3>
+        <p>Web design, AI tools, creative writing</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>Let’s create something amazing together! 🌟</p>
-    <a href="mailto:karlita.dev@gmail.com" class="btn primary">Send Email</a>
-  </section>
+<section id="projects" class="projects">
+  <h2>My Projects</h2>
+  <div class="cards">
+
+    <div class="project">
+      <div class="project-header">
+        <img src="fivion.png" alt="Fivion logo" class="logo">
+      </div>
+      <h3>Fivion</h3>
+      <p>
+        Fivion is a platform designed to make an impact on how you use your clothes, giving them a second chance.
+      </p>
+      <div class="button-group">
+        <a href="https://superate2014.sharepoint.com/:v:/s/HackathonChampsMicrosoft365-2023-Proyecto12/ETLlSuFsuGNMqh-G7sciTH4BKDgeWZm4ZZ4OewCQevxoAQ?e=IEcHMz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" 
+   rel="noopener noreferrer" class="project-button">Learn more</a>
+        <a href="https://apps.powerapps.com/play/e/default-d8e3bd44-0bba-426b-952d-ada7bb17393c/a/31099623-d414-4e80-9259-c63af163a708?connections=premium&source=sharebutton&sourcetime=1762733078129" target="_blank" 
+   rel="noopener noreferrer" class="project-button secondary">Visit site</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <img src="logoupdated.png" alt="AI Schooling logo" class="logo">
+      </div>
+      <h3>AI Schooling - Feria de Logros</h3>
+      <p>
+        An innovative platform designed to teach how to use Artificial Intelligence in daily life in a simple and useful way.
+      </p>
+      <div class="button-group">
+        <a href="https://aischoolingexpo.infinityfreeapp.com/" target="_blank" 
+   rel="noopener noreferrer" class="project-button secondary">Visit site</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <img src="logoupdated.png" alt="AI Schooling logo" class="logo">
+      </div>
+      <h3>AI Schooling - ExpoTech</h3>
+      <p>
+        We made many changes to the platform, adding more videos on it for you to get more into the world of AI!
+      </p>
+      <div class="button-group">
+        <a href="https://aischooling.infinityfreeapp.com/" target="_blank" 
+   rel="noopener noreferrer" class="project-button secondary">Visit site</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="contact" class="contact-section">
+  <h2>Let's Connect 💬</h2>
+  <p class="intro">
+    I’d love to hear from you! Whether you have a question, a project idea, or just want to say hi — feel free to reach out.
+  </p>
+
+  <div class="contact-container">
+    <!-- Left side: Info -->
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>San Salvador, El Salvador</span>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:karlachicas.ag@gmail.com" target="_blank" rel="noopener noreferrer">karlachicas.ag@gmail.com</a>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone"></i>
+        <a href="https://wa.me/50370000000" target="_blank" rel="noopener noreferrer">+503 7000 0000</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/karlachicas07/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+
+    <!-- Right side: Form -->
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Your name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Your email" required>
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Subject">
+      </div>
+      <div class="form-group">
+        <textarea rows="5" placeholder="Your message" required></textarea>
+      </div>
+      <button type="submit" class="btn-send">Send Message 💌</button>
+    </form>
+  </div>
+</section>
 
   <footer>
-    <p>Made with 💖 and ☕ by <b>Karlita</b> | © 2025</p>
+    <p>Made by <b>Karla Chicas</b> | © 2025</p>
   </footer>
 </body>
 </html>
-
