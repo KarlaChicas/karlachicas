@@ -157,6 +157,7 @@ h2 {
   margin-bottom: 1.5rem;
   text-align: left;
 }
+
 /* ABOUT CONTAINER */
 .about-container {
   display: grid;
@@ -479,4 +480,173 @@ footer {
 
 .logoo {
   width: 200px;
+}
+
+/* 🌸 RESPONSIVE DESIGN 🌸 */
+
+/* Medium screens (tablets, < 992px) */
+@media (max-width: 992px) {
+  header {
+    padding: 1rem 2rem;
+  }
+
+  nav ul {
+    gap: 1rem;
+  }
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 6rem;
+  }
+
+  .profile-card {
+    flex-direction: column;
+  }
+
+  .profile-image {
+    margin: 0 0 2rem 0;
+    width: 300px;
+    height: 300px;
+  }
+
+  .profile-info h2 {
+    font-size: 2rem;
+  }
+
+  .profile-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .profile-info p {
+    font-size: 0.95rem;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-text p {
+    text-align: justify;
+  }
+
+  .download-wrap {
+    text-align: center;
+  }
+
+  .about-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small screens (phones, < 600px) */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  .profile-image {
+    width: 220px;
+    height: 220px;
+  }
+
+  .profile-info h2 {
+    font-size: 1.8rem;
+  }
+
+  .profile-info h3 {
+    font-size: 1rem;
+  }
+
+  .profile-info p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+
+  section {
+    padding: 3rem 1.5rem;
+  }
+}
+
+/* 🌸 Hamburger menu base */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  color: #3b2f30;
+  cursor: pointer;
+}
+
+/* Hide nav on mobile by default */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    width: 100%;
+    background: #fff8f8;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    text-align: left;
+    padding: 1rem 2rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  header {
+    flex-wrap: wrap;
+  }
+
+  /* Show menu when active */
+  nav.active {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  /* Small fade animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
